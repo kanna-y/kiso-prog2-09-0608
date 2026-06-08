@@ -28,7 +28,7 @@ int main(void) {
     fprintf(fp, "教室 25 60.5\n");
 
     /* TODO: fclose する */
-    fprintf(fp, "教室 25 60.5\n");
+     fclose(fp);
 
     printf("追記しました\n");
     return 0;
