@@ -12,7 +12,7 @@
 int main(void) {
     FILE *fp = fopen("mydata.csv", "w");
 
-    if fp == NULL {
+    if 'fp == NULL' {
         printf("エラーです。");
         return 1;
         }
