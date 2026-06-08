@@ -12,9 +12,10 @@
 int main(void) {
     FILE *fp = fopen("mydata.csv", "w");
 
-    if *fp = NULL{
+    if fp = NULL {
         printf("エラーです。");
-    return 1;
+        return 1;
+        }
     /* TODO: fp が NULL かどうかチェックして、NULL なら
      *       エラーメッセージを表示して return 1; する */
 
