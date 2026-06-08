@@ -34,7 +34,6 @@ int main(void) {
 
     /* TODO: fscanf のループで全行読む
      *       各行で temp > max_temp なら max_temp と max_location を更新する */
-     *       各行で temp > max_temp なら max_temp と max_location を更新する */
     while (fscanf(fp, "%s %d %f", location, &temp, &hum) == 3) {
         if (temp > max_temp) {
             max_temp = temp;
